@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb+srv://root:root@apidb.yrzqpy5.mongodb.net/cliet-api?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://Kasimsaifi:root@cluster0.skupjdj.mongodb.net/client?retryWrites=true&w=majority&appName=Cluster0");
 // mongoose.connect(process.env.MONGO_DB_ATLAS_STRING, { useNewUrlParser: true });
 
 const db = mongoose.connection;
