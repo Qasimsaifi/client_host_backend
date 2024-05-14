@@ -1,0 +1,55 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Build output
+/build
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+
+# User-specific files
+*.sln
+*.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Cache files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Testing
+coverage
+
+# IDEs
+/.idea
+/.vscode
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Yarn integrity file
+.yarn-integrity
